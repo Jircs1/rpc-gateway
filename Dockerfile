@@ -9,7 +9,7 @@ COPY . .
 
 RUN go build .
 
-FROM alpine:3.19
+FROM alpine:3.21.0
 
 RUN apk add --update-cache --no-cache \
         ca-certificates
